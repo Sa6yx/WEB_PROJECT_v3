@@ -133,7 +133,7 @@ nav .fa {
 /*------ course ------*/
 
 .course {
-    background-color: #f6f6f6;
+    background-color: #fff;
 
     width: 100%;
     margin: auto;
@@ -145,7 +145,7 @@ h1 {
     font-weight: 600;
 }
 p {
-    color: #777;
+    color: #333333;
     font-size: 15px;
     font-weight: 300;
     line-height: 22px;
@@ -310,7 +310,7 @@ h3 {
 /*-------- Call to Action ---------*/
 
 .cta {
-    margin: 100px auto;
+    margin: 30px auto;
     width: 73.5%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.89), rgba(4, 9, 30, 0.501)),url(images/3_gradient.png);
     background-position: center;
@@ -320,9 +320,32 @@ h3 {
 }
 .cta h1 {
     color: #f6f6f6;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     padding: 0;
 
+}
+.ctu-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #f6f6f6;
+    border: 1px solid #f6cc24;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 200;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.ctu-btn:hover {
+    border: 1px solid #f6f6f6;
+    background: #f6cc24de;
+    transition: 1s;
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 10px 20px;
 }
 @media(max-width: 700px) {
     .cta h1 {
@@ -334,5 +357,79 @@ h3 {
 /*-------- Footer --------*/
 
 .footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
     
+}
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
+.icons .fa {
+    color: #000;
+    margin: 0 7.5px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-heart-o {
+    color: #777;
+}
+
+/*------- About Us--------*/
+
+.sub-header {
+    height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89), rgba(4, 9, 30, 0.501)),url(images/3_gradient.png);
+    background-size: cover;
+    text-align: center;
+    color: #f6f6f6;
+}
+
+.sub-header h1 {
+    margin-top: 0px;
+}
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: -20px;
+    padding-bottom: 50px;
+}
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img {
+    width: 100%;
+}
+.about-us h1 {
+    padding-top: 0;
+}
+.about-us p {
+    padding: 15px 0 25px;
+}
+.au-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.au-btn:hover {
+    border: 1px solid #f6cc24;
+    background: #f6cc24;
+    transition: 1s;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px 20px;
 }
