@@ -172,3 +172,56 @@ h3 {
     border: 0.5px solid #676767;
     transition: 1s;
 }
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+/*------- blog --------*/
+
+.campus {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col {
+    flex-basis: 270px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col video{
+    width: 100%;
+    display: block;
+}
+.layer {
+    background: #0000007a;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover {
+    background: #cb383800;
+}
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+    color: #f6f6f6;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3 {
+    bottom: 1   0%;
+    opacity: 1;
+}
