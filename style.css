@@ -60,20 +60,25 @@ nav img {
     color: #f6f6f6;
     font-size: 62px;
     font-weight: 600;
+    position: relative;
+    top: 30px;
 }
 .text-box p {
     font-weight: 200;
     color: #f6f6f6;
-    margin: 5px 0 40px;
+    margin: 0px 0 40px;
     font-size: 15px;
+    position: relative;
+    top: 20px;
 }
 .join-btn {
     display: inline-block;
     text-decoration: none;
     color: #f6f6f6;
     border: 1px solid #f6cc24;
-    padding: 12px 24px;
+    padding: 10px 20px;
     font-size: 13px;
+    font-weight: 200;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -84,9 +89,9 @@ nav img {
     background: #f6cc24de;
     transition: 1s;
     color: black;
-
-    font-size: 14px;
-    padding: 11px 24px;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 10px 20px;
 }
 
 nav .fa {
@@ -188,7 +193,7 @@ h3 {
 }
 .campus-col {
     flex-basis: 270px;
-    border-radius: 15px;
+    border-radius: 14px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
@@ -211,8 +216,8 @@ h3 {
 }
 .layer h3 {
     width: 100%;
-    font-weight: 500;
-    font-size: 26px;
+    font-weight: 300;
+    font-size: 20px;
     color: #f6f6f6;
     bottom: 0;
     left: 50%;
@@ -222,6 +227,27 @@ h3 {
     transition: 0.5s;
 }
 .layer:hover h3 {
-    bottom: 1   0%;
+    bottom: 6%;
     opacity: 1;
+}
+
+/*------facilities------*/
+
+.facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;   
+}
+.facilities-col img {
+    width: 100%;
+    border-radius: 14px;
+    
 }
